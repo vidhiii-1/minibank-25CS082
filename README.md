@@ -135,7 +135,7 @@ A console-based banking application developed using Java as part of the Object-O
 ## Project Structure
 
 ```text
-oop-minibank-25cs072/
+oop-minibank-25cs082/
 ├── model/
 │   ├── annotation/
 │   ├── Account.java
@@ -213,8 +213,8 @@ java -jar MiniBank.jar
 ```
 
 ## Student Details
-- **Name:** Kush Patel
-- **Student ID:** 25CS072
+- **Name:** Vidhi Patel
+- **Student ID:** 25CS082
 - **Branch:** Computer Science and Engineering (CSE)
 - **Course:** B.Tech
 - **University:** Charotar University of Science and Technology (CHARUSAT)
