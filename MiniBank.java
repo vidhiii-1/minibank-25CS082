@@ -34,7 +34,7 @@ public class MiniBank {
         System.out.println("================================");
 
         Customer.Address address = new Customer.Address(
-                "Hostel Block A", "Changa", "388421"
+                "Hostel Block 3", "Changa", "388421"
         );
 
         Customer customer = new Customer(
@@ -46,9 +46,9 @@ public class MiniBank {
         System.out.println("Name: " + customer.getName());
 
         Account[] accounts = {
-                new SavingsAccount("Kush Patel", 5000, 1000),
-                new CurrentAccount("Rahul Shah", 3000, 2000),
-                new FixedDepositAccount("Aarav Patel", 10000)
+                new SavingsAccount("Vidhi Patel", 5000, 1000),
+                new CurrentAccount("Naavya Sharma", 3000, 2000),
+                new FixedDepositAccount("Aarvy Amin", 10000)
         };
 
         System.out.println("\n========== ANNOTATION VALIDATION ==========");
