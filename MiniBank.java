@@ -38,7 +38,7 @@ public class MiniBank {
         );
 
         Customer customer = new Customer(
-                "Kush Patel", "kush@gmail.com", "9876543210", address
+                "Vidhi Patel", "vidhi@gmail.com", "9876543210", address
         );
 
         System.out.println("\n========== CUSTOMER DETAILS ==========");
