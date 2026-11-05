@@ -63,7 +63,7 @@ public class PayrollDriver {
     public static void main(String[] args) {
         System.out.println("=== Practical 5 - Task 2: Payroll System Polymorphism ===");
         Employee[] staff = {
-            new FullTime("EMP001", "Krisha Patel", 75000),
+            new FullTime("EMP001", "Vidhi Patel", 75000),
             new PartTime("EMP002", "Amit Shah", 80, 450),
             new Intern("EMP003", "Neha Sharma", 15000),
             new FullTime("EMP004", "Rohan Joshi", 60000)
