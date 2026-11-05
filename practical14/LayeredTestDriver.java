@@ -42,7 +42,7 @@ public class LayeredTestDriver {
         SimpleBankService service = new SimpleBankService();
 
         // Test 1: Addition increases count
-        service.add(new SimpleAccount("AC1", "Krisha", 1000));
+        service.add(new SimpleAccount("AC1", "Vidhi", 1000));
         assert service.count() == 1 : "Count assertion failed!";
         System.out.println("Test 1: Addition increases count -> PASS (Count = " + service.count() + ")");
 
