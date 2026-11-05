@@ -7,7 +7,7 @@ import java.util.List;
 public class LogAnalyzerDriver {
     public static void main(String[] args) throws IOException {
         System.out.println("=== Practical 11 - Task 2: NIO Log Analyzer ===");
-        Path tempLog = Paths.get("d:/WDF____/Practical_File_25CS069/test_audit.log");
+        Path tempLog = Paths.get("d:/WDF____/Practical_File_25CS082/test_audit.log");
         List<String> lines = List.of(
             "INFO User login 10:00",
             "WARN Failed password attempt",
