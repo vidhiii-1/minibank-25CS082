@@ -23,9 +23,9 @@ class UserProfile implements Serializable {
 public class SerializationDriver {
     public static void main(String[] args) {
         System.out.println("=== Practical 11 - Task 1: Object Serialization & Transient ===");
-        File file = new File("d:/WDF____/Practical_File_25CS069/user_test.dat");
+        File file = new File("d:/WDF____/Practical_File_25CS082/user_test.dat");
 
-        UserProfile original = new UserProfile("krisha_patel", "SECRET_TOKEN_XYZ", 98);
+        UserProfile original = new UserProfile("vidhi_patel", "SECRET_TOKEN_XYZ", 98);
         System.out.println("Original object before save: " + original);
 
         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(file))) {
